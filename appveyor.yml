@@ -26,7 +26,7 @@
   before_build:
     - gitbook install getting-started
 
-  after_build:
+  build_script:
     - gulp build
 
 # configuration for "dev" branch
