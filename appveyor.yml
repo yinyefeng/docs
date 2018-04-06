@@ -23,13 +23,7 @@
   cache:
     - node_modules                        # local npm modules
 
-  before_build:
-    - gitbook install getting-started
-
   build_script:
-    - dir
-
-  after_build:
     - gulp build
 
 # configuration for "dev" branch

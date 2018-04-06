@@ -55,6 +55,12 @@ gulp.task("build-introduction", function () {
   copy('introduction');
 });
 
+gulp.task("build-stl", function () {
+  install('stl');
+  build('stl');
+  copy('stl');
+});
+
 gulp.task("build-working-with-plugins", function () {
   install('working-with-plugins');
   build('working-with-plugins');
@@ -74,6 +80,7 @@ gulp.task("build", function (callback) {
     "build-faq",
     "build-getting-started",
     "build-introduction",
+    "build-stl",
     "build-working-with-plugins",
     "build-working-with-siteserver-cms"
   );
