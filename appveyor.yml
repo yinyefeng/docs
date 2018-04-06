@@ -16,7 +16,7 @@
     - npm install gitbook-cli -g
     - npm install
 
-  build: off
+  build: script
 
   skip_tags: true
 
