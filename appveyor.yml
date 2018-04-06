@@ -15,6 +15,7 @@
     - npm install gulp-cli -g
     - npm install gitbook-cli -g
     - npm install
+    - npm link gulp
 
   build: script
 
