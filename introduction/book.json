@@ -1,0 +1,62 @@
+{
+    "title": "SiteServer CMS 产品介绍",
+    "description": "本书主要针对那些初次接触SiteServer CMS产品的客户，借助此文档可以快速了解SiteServer CMS 产品的一些基本情况、能做什么、产品特性、产品功能、运行环境以及部分客户案例。",
+    "author": "ekun008",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "readme.md"
+    },
+    "links": {
+        "sidebar": {
+            "SiteServer CMS 产品介绍": "index.html"
+        }
+    },
+    "plugins": [ 
+        "-lunr",
+        "-search",
+        "search-plus@^0.0.11",
+        "3-ba@^0.9.0", 
+        "-sharing",
+        "sharing-plus@^0.0.2", 
+        "favicon@^0.0.2",
+        "splitter",
+        "tbfed-pagefooter",
+        "multipart"
+    ],
+    "pluginsConfig": { 
+        "sharing": {
+           "douban": true, 
+           "linkedin": true, 
+           "qq": true,
+           "qzone": true, 
+           "weibo": true,
+           "all": [
+               "douban", "weibo", "linkedin",
+               "qq", "qzone" 
+           ]
+       },
+        "3-ba": {
+            "token": "5cbab803058fe752643aca580387e0d7"
+        },
+        "favicon": {
+            "shortcut": "assets/favicon.ico",
+            "bookmark": "assets/favicon.ico",
+            "appleTouch": "assets/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "assets/favicon.ico",
+                "180x180": "assets/favicon.ico"
+            }
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy <a href='http://www.siteserver.cn'>北京百容千域软件技术开发有限责任公司</a> 2018",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "theme-default": {
+            "showLevel": true
+        }
+    }
+}

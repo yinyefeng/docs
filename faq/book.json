@@ -1,0 +1,14 @@
+{
+    "title": "SiteServer CMS 常见问题",
+    "language": "zh-hans",
+    "author": "ekun008",
+    "gitbook": "3.2.3",
+    "copyright": "Copyright &copy <a href='http: //www.siteserver.cn'>北京百容千域软件技术开发有限责任公司</a> 2018",
+    "plugins": [ 
+        "theme-faq",
+        "-lunr", 
+        "favicon@^0.0.2",
+        "-search",
+        "search-plus@^0.0.11" 
+    ] 
+}

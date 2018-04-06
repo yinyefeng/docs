@@ -1,0 +1,31 @@
+{
+  "name": "docs",
+  "version": "1.0",
+  "description": "siteserver cms docs",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minifier": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-run": "^1.7.1",
+    "rimraf": "^2.6.2",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/siteserver/docs.git",
+  "keywords": [
+    "siteserver",
+    "cms",
+    "docs"
+  ],
+  "author": "SiteServer CMS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siteserver/docs/issues"
+  },
+  "homepage": "https://github.com/siteserver/docs#readme"
+}

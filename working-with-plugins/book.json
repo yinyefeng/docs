@@ -1,0 +1,63 @@
+{
+    "title": "SiteServer CMS 插件大全",
+    "description": "本书内容是关于SiteServer CMS 常用插件的介绍和使用说明。",
+    "author": "ekun008",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "readme.md"
+    },
+    "links": {
+        "sidebar": {
+            "SiteServer CMS 插件大全": "index.html"
+        }
+    },
+    "plugins": [ 
+        "-lunr",
+        "-search",
+        "search-plus@^0.0.11",
+        "3-ba@^0.9.0", 
+        "-sharing",
+        "sharing-plus@^0.0.2", 
+        "favicon@^0.0.2",
+        "splitter",
+        "tbfed-pagefooter",
+        "multipart",
+        "toggle-chapters" 
+    ],
+    "pluginsConfig": { 
+        "sharing": {
+           "douban": true, 
+           "linkedin": true, 
+           "qq": true,
+           "qzone": true, 
+           "weibo": true,
+           "all": [
+               "douban", "weibo", "linkedin",
+               "qq", "qzone" 
+           ]
+       },
+        "3-ba": {
+            "token": "5cbab803058fe752643aca580387e0d7"
+        },
+        "favicon": {
+            "shortcut": "assets/favicon.ico",
+            "bookmark": "assets/favicon.ico",
+            "appleTouch": "assets/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "assets/favicon.ico",
+                "180x180": "assets/favicon.ico"
+            }
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy <a href='http://www.siteserver.cn'>北京百容千域</a> 2018",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "theme-default": {
+             "showLevel": true
+        } 
+    }
+}
