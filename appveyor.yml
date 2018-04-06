@@ -16,6 +16,8 @@
     - npm install gitbook-cli -g
     - npm install
 
+  build: off
+
   skip_tags: true
 
   cache:
