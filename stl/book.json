@@ -1,5 +1,5 @@
 {
-  "title": "SiteServer CMS 新手入门",
+  "title": "STL 语言参考手册",
   "description": "本书主要针对那些初次接触SiteServer CMS产品的用户，借助此文档可以快速了解SiteServer CMS 产品的一些基本概念和快速上手一些常用的基本操作。",
   "author": "SiteServer CMS",
   "output.name": "site",
@@ -11,7 +11,7 @@
   },
   "links": {
     "sidebar": {
-      "SiteServer CMS 新手入门": "index.html"
+      "STL 语言参考手册": "index.html"
     }
   },
   "plugins": [
