@@ -24,7 +24,8 @@
     "favicon",
     "splitter",
     "tbfed-pagefooter",
-    "multipart"
+    "multipart",
+    "collapsible-menu-ex"
   ],
   "pluginsConfig": {
     "sharing": {
@@ -59,7 +60,7 @@
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "theme-default": {
-      "showLevel": true
+      "showLevel": false
     }
   }
 }
